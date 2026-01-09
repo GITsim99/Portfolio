@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Louis Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav>
+        <div class="left">
+            <a href="/">Simon Louis</a>
+        </div>    
+        <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/simon-louis-a29475158" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:l.simon99@outlook.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1 : Hero --->
+         <section class="hero-section">
+            <div class="text">
+                <h2>Bonjour, je suis Simon,</h2>
+                <p>Bienvenue sur mon portfolio, vous y trouverez mes compétences, mes expériences et mes projets.
+                </p>
+                <div class="links">
+                    <a href="#compétence">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Compétences</span>
+                    </a>
+                    <a href="#experience">
+                        <i class="fa-regular fa-hourglass"></i>
+                        <span>Expériences</span>
+                    </a>
+                    <a href="#projet">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Projets</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+                <div class="headshot">
+                <img src="photo_linkedin.PNG" alt="Photo portfolio">
+            </div>
+
+         </section>
+         <!---SECTION 2 : Skill -->
+         <section id="compétence" class="skills-section">
+         <h2>Compétences</h2>
+         <div class="text">
+            Spécialisé en production, gestion et valorisation de
+                    données géographiques en collectivité. Expérience en
+                    QGIS, PostGIS et Python, cartographies statiques et
+                    interactives, open data et analyse spatiale.
+         </div>
+         <div class="cells">
+            <div class="cell">
+                <i class="fa-solid fa-earth-europe"></i>
+                <span>QGIS/ArcGIS</span>
+            </div>
+
+            <div class="cell">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+
+            <div class="cell">
+                <i class="fa-solid fa-database"></i>
+                <span>PostgreSQL-PostGIS</span>
+            </div>
+
+            <div class="cell">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>WebMapping (html/CSS/Java/Python) [En développement]</span>
+            </div>
+
+         </div>
+         </section>
+         <!--SECTION 3 : Expérience-->
+        <section id="experience" class="experience">
+            <h2>Expériences professionelles</h2>
+            <div class="header-spi">
+            <h3>Analyste territorial <span style="font-weight:normal">(08/04/2024 -15/11/2025)
+            <b>Spi</b>, Liège, Belgique</h3> </span>
+            <img src="spi.webp" alt="image_spi" backgro>
+            </div>
+         <ul class="spi">
+            <li>Réalisation et rédaction d’analyses territoriales (démographie,
+            aspects socio-économiques, environnement, mobilité,
+            paysage, services et équipements, foncier, etc.) à l’échelle
+            communale.</li>
+            <li>Automatisation de la production de plusieurs types de
+            graphiques pour plus de 70 communes en version statiques et
+            interactive (Python).</li>
+            <li>Conception de projets QGIS pour la visualisation et l’analyse
+                spatiale des données.</li>
+            <li>Extraction et traitement de données OpenStreetMap (via API
+                Python) pour la mobilité active (vélo).</li>
+            <li>Création d’une carte interactive (uMap) pour la diffusion et
+                l’analyse des données de mobilité active.</li>
+            <li>Développement de traitements spatiaux avec Python (ex.
+                identification des contraintes sur les zones d’aménagement).</li>
+         </ul>   
+        <div class="header-3e">
+        <h3>Analyste de données solaires et éoliennes <span style="font-weight:normal">
+            (18/09/2023 - 17/03/2024)
+            <b>3E</b>, Bruxelles, Belgique</span></h3>
+        <img src="3e.webp" alt="image_3e">
+        </div>
+        <ul class="e3">
+            <li>Collecte et traitement de données éoliennes opensource
+            (Python).</li>
+            <li>Évaluation des performances d’un modèle éolien avec les
+            données opensource collectées (RMSE, biais, corrélation,
+            visualisations) (Python).</li>
+            <li>Conception d’une carte interactive pour analyser les
+            performances du modèle d’un point de vue spatial en Python.</li>
+        </ul>
+        </section>
+        <!--SECTION 4 : PROJETS -->
+        <section id="projet" class="projet">
+        <h2>Projets</h2>
+    <div class="project-container">
+        <!-- Projet 1 -->
+        <div class="project-slide active">
+            <div class="project-content">
+                <div class="project-text">
+                    <h3>Titre du projet 1</h3>
+                    <p>Insérez ici la description de votre premier projet. Décrivez les objectifs, les technologies utilisées, et les résultats obtenus.</p>
+                </div>
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/350x250/4CAF50/ffffff?text=Projet+1" alt="Projet 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project-slide">
+            <div class="project-content">
+                <div class="project-text">
+                    <h3>Titre du projet 2</h3>
+                    <p>Insérez ici la description de votre deuxième projet. Décrivez les objectifs, les technologies utilisées, et les résultats obtenus.</p>
+                </div>
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/350x250/2196F3/ffffff?text=Projet+2" alt="Projet 2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="project-slide">
+            <div class="project-content">
+                <div class="project-text">
+                    <h3>Titre du projet 3</h3>
+                    <p>Insérez ici la description de votre troisième projet. Décrivez les objectifs, les technologies utilisées, et les résultats obtenus.</p>
+                </div>
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/350x250/FF9800/ffffff?text=Projet+3" alt="Projet 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 4 -->
+        <div class="project-slide">
+            <div class="project-content">
+                <div class="project-text">
+                    <h3>Titre du projet 4</h3>
+                    <p>Insérez ici la description de votre quatrième projet. Décrivez les objectifs, les technologies utilisées, et les résultats obtenus.</p>
+                </div>
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/350x250/9C27B0/ffffff?text=Projet+4" alt="Projet 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation par bulles -->
+    <div class="dots-navigation">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div>
+        </section>
+        <!---SECTION 4 : contatc-->
+        <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+            </div>
+            <form>
+                <label for="name">Nom</label>
+                <input type="text" id="nom">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea  id="message"></textarea>
+
+                <button type="submit">Envoyez un message</button>
+
+            </form>
+        </div>
+        </section>
+    </main>
+
+</body>
+<script>
+    const slides = document.querySelectorAll('.project-slide');
+    const dots = document.querySelectorAll('.dot');
+
+    // Fonction pour afficher un projet spécifique
+    function showSlide(index) {
+        // Masquer tous les slides
+        slides.forEach(slide => slide.classList.remove('active'));
+        
+        // Désactiver tous les dots
+        dots.forEach(dot => dot.classList.remove('active'));
+        
+        // Afficher le slide sélectionné
+        slides[index].classList.add('active');
+        
+        // Activer le dot correspondant
+        dots[index].classList.add('active');
+    }
+
+    // Ajouter des événements de clic sur chaque dot
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            showSlide(index);
+        });
+    });
+</script>
+</html>
