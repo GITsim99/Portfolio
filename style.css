@@ -487,3 +487,38 @@ li{
     display:block;
     font-size:18px;
 }
+
+
+.project-content {
+    display: flex;
+    align-items: stretch;
+    min-height: 600px;      /* hauteur du cadre (augmente si besoin) */
+    padding: 40px;
+}
+
+.projet1,
+.project-text {
+    flex: 1;               /* texte = part minoritaire */
+}
+
+.project-image {
+    flex: 3;               /* image = part majoritaire */
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* image grande et lisible */
+}
+
+.project-slide:nth-child(2) .project-image img {
+    max-height: 10000px;
+    width: 1000px;
+        margin-left: 380px;
+}
+
+.project-slide:nth-child(2) project-text {
+    max-height: 8000px;
+    width: 1000px;
+        margin-left: 380px;
+}
