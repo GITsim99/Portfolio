@@ -517,7 +517,7 @@ li{
         margin-left: 380px;
 }
 
-.project-slide:nth-child(2) project-text {
+.project-slide:nth-child(2).project-text {
     max-height: 8000px;
     width: 1000px;
         margin-left: 380px;
