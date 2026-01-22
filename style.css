@@ -460,6 +460,11 @@ li{
     text-align:center;
     font-size:20px;
 }
+.text2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size:20px;
+}
 .skills-section .cells{
     display:flex;
     justify-content: center;
@@ -511,14 +516,34 @@ li{
     object-fit: cover;     /* image grande et lisible */
 }
 
-.project-slide:nth-child(2) .project-image img {
-    max-height: 10000px;
-    width: 1000px;
-        margin-left: 380px;
+/* Cible uniquement le 2ème projet (index 1) */
+.project-slide:nth-child(2) .project-text {
+    max-width: none;
+    width: 100%;
 }
 
-.project-slide:nth-child(2).project-text {
-    max-height: 8000px;
-    width: 1000px;
-        margin-left: 380px;
+.project-slide:nth-child(2) .project-image img {
+max-width: 60%;
+    margin-left:300px;
 }
+
+/* Cible uniquement le 3ème projet (index 2) */
+.project-slide:nth-child(3) .project-text {
+    max-width: none;
+    width: 100%;
+}
+
+/* OU en une seule règle pour les deux */
+.project-slide:nth-child(2) .project-text,
+.project-slide:nth-child(3) .project-text {
+    max-width: none;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.project-slide:nth-child(3) .project-image img {
+    max-width: 80%; /* ou 50%, 70% selon vos besoins */
+    height: auto;
+    margin-left:100px;
+}
+

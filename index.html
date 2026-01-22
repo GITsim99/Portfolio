@@ -39,7 +39,7 @@
          <section class="hero-section">
             <div class="text">
                 <h2>Bonjour, je suis Simon,</h2>
-                <p>Bienvenue sur mon portfolio, vous y trouverez mes compétences, mes expériences pros et mes projets principalement centrés sur la géomatique,  la mobilité et la géographie phyisique (méteo/climat et geomorphologie).
+                <p>Bienvenue sur mon portfolio, vous y trouverez mes compétences, mes expériences pros et mes projets principalement centrés sur la géomatique,  la mobilité et la géographie physique (méteo/climat et geomorphologie).
                 </p>
                 <div class="links">
                     <a href="#compétence">
@@ -94,12 +94,15 @@
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>WebMapping (html-CSS-Javascript-Python) <br> <b>[En apprentissage]</b></span>
             </div>
-
+         </div>
+                  <div class="text2">
+        Master en géographie orientation climatologie à l'Université de Liège (2021-2023) : Grande distinction <br>
+        Bachelier en géographie à l'Université de Liège (2018-2021) : Distinction 
          </div>
          </section>
          <!--SECTION 3 : Expérience-->
         <section id="experience" class="experience">
-            <h2>Expériences professionelles</h2>
+            <h2>Expériences professionnelles</h2>
             <div class="header-spi">
             <h3>Analyste territorial <span style="font-weight:normal">(08/04/2024 -15/11/2025)
             <b>Spi</b>, Liège, Belgique</h3> </span>
@@ -172,12 +175,47 @@
                 </div>
             </div>
         </div>
-
+        <!-- Projet 4 -->
+        <div class="project-slide">
+            <div class="project-content">
+                <div class="project-text">
+                    <h3>Travail de fin d'étude (2023) : Développement d'un outil opérationnel de prévision d'apparition de gel printanier dans un vignoble wallon, à l'aide du modèle MAR</h3>
+                    <p> Lien vers le travail : https://matheo.uliege.be/handle/2268.2/17338 <br><br><b>Résumé</b> : Avec le changement climatique et la montée des isothermes vers le nord, la
+Belgique devient un territoire de plus en plus propice à accueillir des vignobles. En effet la
+Belgique possède les indices bioclimatiques nécessaires à la croissance des vignes. De ce fait,
+l’activité vigneronne est en croissance en Belgique. Toutefois, la Belgique n’est pas à l’abris
+des gelées de printemps qui font beaucoup de dégâts aux vignes que ce soit dans le nord de la
+France ou ailleurs dans le monde. Pour éviter les pertes, les vignerons doivent déployer des
+outils de défense tels que des bougies chauffantes, des tours à vent, des hélicoptères, de
+l’aspersion et bien d’autres outils. Ces outils coutent du temps et de l’argent et ont besoin,
+pour leur implémentation, de prévisions de gel précises. Ce mémoire a pour but de développer
+un outil opérationnel de prévision de gel de printemps. Cet outil est créé à partir de deux bases
+de données, provenant de puces qui ont enregistré la température au niveau du fruit de la
+vigne sur l’année 2021-2022 ainsi que du MAR (modèle atmosphérique régional, forcé par
+ERA5). Deux méthodes ont été utilisées pour tenter de prévoir le gel. Ces deux méthodes se
+sont basées sur les années 2021-2022. Un modèle prédictif a tout d’abord été généré à partir
+d’une formule modifiée empiriquement : la température de sortie du MAR a ainsi été
+transformée pour être la plus proche possible de celle des fruits des vignes, estimée grâce aux
+puces. Ensuite, un second modèle a été créé, via une régression logistique multivariée prenant
+en compte, en plus de la température minimum du MAR, plusieurs variables pouvant impacter
+l’apparition de gel. Il en a résulté une amélioration des prévisions des nuits de gel par rapport
+aux sorties brutes du MAR. En effet sur l’année 2022, à partir de mars, sur 46 nuits, le MAR
+brut (sans modification) a prédit 7 nuits de gel correctes, 9 nuits de gel manquées, et 30 nuits
+sans gel correctement prévues alors que le meilleur modèle de ce mémoire (issu d’une
+régression logistique) a prévu sur ces mêmes 46 nuits, 13 nuit de gel correctes, 3 nuits de gel
+manquées et 30 nuits sans gel correctement prévues. Le modèle doit encore être testé sur des
+prévisions futures avec MAR forcé par le modèle global GFS par exemple.</p>
+                </div>
+                <div class="project-image">
+                    <img src="ex4.PNG" alt="Projet 4">
+                </div>
+            </div>
+        </div>
         <!-- Projet 3 -->
         <div class="project-slide">
             <div class="project-content">
                 <div class="project-text">
-                    <h3>Travail de fin de bachelier (2023) : probabilité de glissement de terrain</h3>
+                    <h3>Travail de fin de bachelier (2021) : probabilité de glissement de terrain</h3>
                     <p>                Calcul de la probabilité de glissement de terrain via une régression
                 logistique après identification de nombreux glissements de terrain
                 à Chimanimani (via Google Earth).</p>
@@ -185,21 +223,10 @@
                 <div class="project-image">
                     <img src="finalpoint.png" alt="Projet 3">
                 </div>
-            </div> -->
+            </div> 
         </div>
 
-        <!-- Projet 4 -->
-        <!-- <div class="project-slide">
-            <div class="project-content">
-                <div class="project-text">
-                    <h3>Titre du projet 4</h3>
-                    <p>Insérez ici la description de votre quatrième projet. Décrivez les objectifs, les technologies utilisées, et les résultats obtenus.</p>
-                </div>
-                <div class="project-image">
-                    <img src="https://via.placeholder.com/350x250/9C27B0/ffffff?text=Projet+4" alt="Projet 4">
-                </div>
-            </div>
-        </div> -->
+
     </div>
 
     <!-- Navigation par bulles -->
@@ -207,7 +234,7 @@
         <span class="dot active" data-slide="0"></span>
         <span class="dot" data-slide="1"></span>
         <span class="dot" data-slide="2"></span>
-        <!-- <span class="dot" data-slide="3"></span> -->
+        <span class="dot" data-slide="3"></span>
     </div>
         </section>
         <!---SECTION 4 : contatc-->
