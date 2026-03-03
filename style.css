@@ -167,6 +167,10 @@ li{
     padding-top:5rem;
 }
 
+.formation {
+    padding-top:5rem;
+}
+
 
 /* SECTION 4 : PROJETS */
 .projet {
@@ -548,3 +552,7 @@ max-width: 60%;
     margin-left:100px;
 }
 
+
+.formation{
+
+}
